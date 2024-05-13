@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="text/html">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <script type="module" src="script.js">
+  </script>
+
+  <script src="../node_modules/jsencrypt/bin/jsencrypt.min.js"></script>
+
+  <!-- <script type="text/javascript">
+
+    /*
+3. Знайдіть JavaScript-бібліотеку для шифрування (https://www.npmjs.com/package/jsencrypt). Напишіть програму, яка імпортує цю бібліотеку у вигляді ECMAScript і шифрує, а потім дешифрує повідомлення. 
+*/
+
+    let encrypt = new JSEncrypt();
+
+    encrypt.getKey();
+
+    const publicKey = encrypt.getPublicKey();
+    const privateKey = encrypt.getPrivateKey();
+
+    const message = "London is the capital of Great Britain";
+    
+    const encryptedMessage = encrypt.encrypt(message);
+
+    console.log("Encrypted message:", encryptedMessage);
+    console.log("Public key:\n ", publicKey);
+    console.log("Private key:\n ", privateKey);
+
+    const decryptedMessage = encrypt.decrypt(encryptedMessage);
+    console.log("Decrypted message:", decryptedMessage);
+
+  </script> -->
+
+</body>
+
+</html>
